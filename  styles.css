@@ -7,8 +7,8 @@
  
 /* ROOT VARIABLES */
 :root {
-  --font-1: 'Kavoon';
-  --font-2: 'Inter';
+  --font-1: "Kavoon";
+  --font-2: "Inter";
 
   --teal: #4CA7C0;
   --purple: #484FB7;
@@ -17,4 +17,10 @@
   --pink: #D9526F;
   --dk-grey: #1E1E1E;
   --white: #FFFFFF;
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+  background-color: var(--purple);
+  }  
 }
