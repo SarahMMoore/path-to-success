@@ -1,6 +1,6 @@
-  /* CSS BY SARAH MOORE */
-  /* IMPORTED FONTS */
-  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+/* CSS BY SARAH MOORE */
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
  /* CSS RESET */
  
@@ -19,8 +19,7 @@
   --white: #FFFFFF;
 }
 
-@media only screen and (max-width: 450px) {
-  body {
+body {
+  display: flex;
   background-color: var(--purple);
-  }  
-}
+  } 
