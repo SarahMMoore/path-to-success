@@ -8,7 +8,7 @@
 
 /* ROOT VARIABLES */
 :ROOT{
-  --font1: 'Kavoom', cursive;
+  --font1: 'Kavoon', cursive;
   --font2: 'Inter', sans-serif;
 
   --teal: #4ca7c0;
@@ -18,4 +18,35 @@
   --pink: #d9526f;
   --dk-gray: #1e1e1e;
   --white: #ffffff;
+}
+
+body {
+  background-color: var(--purple);
+  font-family: var(--font2);
+  color: var(--white);
+}
+
+h1, h2 {
+  font-family: var(--font1);
+
+}
+
+h1 {
+  font-size: 3em;
+}
+
+nav h2 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.15em;
 }
