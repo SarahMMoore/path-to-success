@@ -90,10 +90,13 @@ table {
   
   h2 {
     font: 2em var(--font-titles);
+    color: var(--white);
   }
 
   h3 {
     font: 1.5em var(--font-text);
+    color: var(--yellow);
+    font-weight: bold;
   }
 
   h4 {
@@ -133,8 +136,37 @@ table {
   }
   .our-services {
     background-color: var(--purple);
+    padding: 10px;
   }
 
+  #personal-development {
+
+    background-color: var(--white);
+  }
+  #career-coaching {
+
+    background-color: var(--white);
+  }
+  #relationship-coaching {
+
+    background-color: var(--white);
+  }
+    #supportive-community {
+
+    background-color: var(--white);
+  }
+    #focused-sessions {
+
+    background-color: var(--white);
+  }
+    #workshops-seminars {
+
+    background-color: var(--white);
+  }
+    #online-courses {
+
+    background-color: var(--white);
+  }
   .why {
     background-color: #D9526F;
   }
