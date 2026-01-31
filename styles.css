@@ -139,34 +139,24 @@ table {
     padding: 10px;
   }
 
-  #personal-development {
+  #personal-development, #career-coaching, #relationship-coaching {
 
     background-color: var(--white);
   }
-  #career-coaching {
+ 
+  #supportive-community, #focused-sessions {
 
     background-color: var(--white);
   }
-  #relationship-coaching {
+  #interactive-learning {
 
     background-color: var(--white);
   }
-    #supportive-community {
 
+  #flexible-learning {
     background-color: var(--white);
   }
-    #focused-sessions {
 
-    background-color: var(--white);
-  }
-    #workshops-seminars {
-
-    background-color: var(--white);
-  }
-    #online-courses {
-
-    background-color: var(--white);
-  }
   .why {
     background-color: #D9526F;
   }
