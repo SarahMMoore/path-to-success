@@ -52,3 +52,72 @@ table {
 	border-spacing: 0;
 }
 
+/* ROOT VARIABLE */
+:root{
+  --font-titles: 'Kavoon', cursive;
+  --font-text: 'Inter', sans-serif;
+
+  --teal: #4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
+  --yellow: #E9BB57;
+  --pink: #D9526F;
+  --dk-gray: #1E1E1E1E;
+  --white: #FFFFFF;
+}
+
+/* GLOBAL STYLES */
+@media only screen and (min-width: 450px) {
+  body {
+    margin: 0px auto;
+    max-width: 450px;
+    display: block;
+    background-color: var(--lavender);
+  }
+  
+  header {
+    background-color: #484FB7;
+  
+  }
+
+  main {
+    font-family: var(--font-text);
+  }
+
+  footer {
+    background-color: var(--purple);
+  }
+
+  h1, h2 {
+    font-family: var(--font-titles);
+  }
+  h1 {
+    font-size: 3em;
+    color: var(--white);
+  }
+
+  nav {
+    background-color: var(--yellow);
+  }
+
+  .our-services {
+    background-color: var(--purple);
+
+  }
+
+  .why {
+    background-color: #D9526F;
+  }
+
+  .prices {
+    background-color: #484FB7;
+  }
+
+  .first-step {
+    background-color: var(--pink);
+  }
+
+
+
+
+}
