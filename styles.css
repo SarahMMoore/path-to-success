@@ -84,6 +84,7 @@ table {
   nav h2 {
     font: 1.5em var(--font-text);
     font-style: oblique;
+    font-weight: bold;
     color: var(--dk-gray);
   }
   
@@ -117,11 +118,18 @@ table {
     text-align: center;
     text-transform: uppercase;
   }
+
+  nav a {
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: bold;
+  }
   
   li {
     border: 5px solid var(--yellow);
     background-color: var(--white);
     padding: 10px;
+    font: 1em var(--font-text);
   }
   .our-services {
     background-color: var(--purple);
