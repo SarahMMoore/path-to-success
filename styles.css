@@ -76,23 +76,7 @@ table {
     font-family: var(--font2);
     color: var(--dk-gray);
   }
-/* HEADER */
-  header {
-    background-color: var(--purple);
-    text-align: center;
-  }
-  header small {
-    font-style: italic;
-    color: var(--white);
-  }
-/* NAVIGATION  */  
-  nav{
-    background-color: var(--yellow);    
-  }
-  nav h2 {
-    font-size: 1.5em;
-  }
-  
+
   h1, h2 {
     font-family: var(--font1);
   }
@@ -112,6 +96,19 @@ table {
     font-size: 1.15em;
     color: var(--purple);
   }
-  
-
-}
+  header small {
+    font-style: italic;
+    color: var(--white);
+  }
+  nav{
+    background-color: var(--yellow);    
+  }
+  nav h2 {
+    font-size: 1.5em;
+  }
+  header, .our-services, .why, .prices, footer {
+    background-color: var(--purple);
+  }
+  .first-step {
+    background-color: var(--pink);
+  }
