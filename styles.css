@@ -140,20 +140,29 @@ table {
   }
 
   #personal-development, #career-coaching, #relationship-coaching {
-
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: var(--white);
   }
  
   #supportive-community, #focused-sessions {
-
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: var(--white);
   }
   #interactive-learning {
-
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: var(--white);
   }
 
   #flexible-learning {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: var(--white);
   }
 
