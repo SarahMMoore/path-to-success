@@ -85,18 +85,20 @@ table {
     font: 1.5em var(--font-text);
     font-style: oblique;
     font-weight: bold;
-    color: var(--dk-gray);
+    color: var(--dk-gray); 
   }
   
   h2 {
     font: 2em var(--font-titles);
     color: var(--white);
+    padding-left: 10px;
   }
 
   h3 {
     font: 1.5em var(--font-text);
     color: var(--yellow);
     font-weight: bold;
+    padding-left: 10px;
   }
 
   h4 {
@@ -116,11 +118,16 @@ table {
   }
 
   footer {
-
-    text-align:center;
     font-family: var(--font-text);
+    font-size: small;
+    padding: 30px 0px 40px 0px;
     color: var(--white);
     background-color: var(--purple);
+    text-align: center;   
+  }
+
+  footer a {
+    text-decoration-line: underline;
   }
 
   nav {
@@ -143,9 +150,8 @@ table {
     font-family: var(--font-text);
   }
 
-  .our-services {
-
-
+  #one-on-one, #group-coaching, #workshops-seminars, #online-courses {
+    background-color: var(--purple);
   }
 
   #personal-development, #career-coaching, #relationship-coaching, 
@@ -197,7 +203,7 @@ table {
 
   .prices {
     font-family: var(--font-text);
-
+    background-color: var(--purple);
     padding: 10px 10px 10px 10px;
   }
 
