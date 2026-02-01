@@ -117,7 +117,7 @@ table {
 
   footer {
 
-    text-align:;
+    text-align:center;
     font-family: var(--font-text);
     color: var(--white);
     background-color: var(--purple);
@@ -144,8 +144,8 @@ table {
   }
 
   .our-services {
-    background-color: var(--purple);
-    padding: 10px 10px 10px 10px;
+
+
   }
 
   #personal-development, #career-coaching, #relationship-coaching, 
@@ -160,8 +160,7 @@ table {
   }
 
   .why {
-    background-color: #D9526F;
-    padding: 10px 10px 30px 10px;
+    background-color: var(--pink);
   }
   .why ul {
     display: grid;
@@ -169,7 +168,7 @@ table {
     grid-template-rows: auto auto;
     gap: 20px;
     list-style: none;
-    padding: 0;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     font-size: larger;
@@ -179,26 +178,59 @@ table {
     padding: 40px 20px 40px 20px;
     border-radius: 10px;
   }
-  .why li:nth-child(1) {background-color: var(--teal);
-  border: var(--teal);}
+  .why li:nth-child(1) {
+    background-color: var(--teal);
+    border: var(--teal);
+  }
 
-  .why li:nth-child(2) {background-color: var(--lavender);
-  border: var(--lavender);}
+  .why li:nth-child(2) { background-color: var(--lavender);
+  border: var(--lavender);
+  }
 
-  .why li:nth-child(3) {background-color: var(--yellow);
-  border: var(--yellow);}
+  .why li:nth-child(3) { background-color: var(--yellow);
+  border: var(--yellow);
+  }
 
-  .why li:nth-child(4) {background-color: var(--white);
-    border: var(--white);}
+  .why li:nth-child(4) { background-color: var(--white);
+    border: var(--white);
+  }
 
   .prices {
-    background-color: #484FB7;
+    font-family: var(--font-text);
+
     padding: 10px 10px 10px 10px;
+  }
+
+  .prices table {
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+
+  .prices th, td {
+    border: 2px solid var(--yellow);
+    padding: 15px 10px;
+  }
+
+  .prices th {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--yellow); 
+  }
+
+  .prices td {
+    text-align: left;
+    background-color: var(--white); 
   }
 
   .first-step {
     background-color: var(--pink);
     padding: 10px 10px 10px 10px;
+    font-family: var(--font-text);
+    color: var(--white);
+    line-height: 1.5;
   }
 
 
