@@ -150,8 +150,9 @@ table {
     font-family: var(--font-text);
   }
 
-  #one-on-one, #group-coaching, #workshops-seminars, #online-courses {
+  .our-services {
     background-color: var(--purple);
+    padding: 10px 10px 20px 10px;
   }
 
   #personal-development, #career-coaching, #relationship-coaching, 
@@ -167,6 +168,7 @@ table {
 
   .why {
     background-color: var(--pink);
+    padding: 10px 10px 10px 10px;
   }
   .why ul {
     display: grid;
@@ -207,11 +209,16 @@ table {
     padding: 10px 10px 10px 10px;
   }
 
+  .prices h3 {
+    line-height: 1.5;
+  }
+
   .prices table {
-    width: 62%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
+
   }
 
   .prices th, td {
@@ -233,12 +240,25 @@ table {
 
   .first-step {
     background-color: var(--pink);
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px 8px 15px;
     font-family: var(--font-text);
     color: var(--white);
     line-height: 1.5;
   }
 
+  .first-step small a {
+    display: block;
+    width: 50%;
+    background-color: var(--white);
+    margin: auto;
+    padding: 20px 75px;
+    border-radius: 15px;
+    filter:drop-shadow(5px 5px 1px var(--dk-gray));
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--dk-gray);
+  }
 
 
 
