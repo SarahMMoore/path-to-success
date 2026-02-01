@@ -52,7 +52,7 @@ table {
 	border-spacing: 0;
 }
 
-/* ROOT VARIABLE */
+/* ROOT VARIABLES */
 :root{
   --font-titles: 'Kavoon', cursive;
   --font-text: 'Inter', sans-serif;
@@ -66,7 +66,7 @@ table {
   --white: #FFFFFF;
 }
 
-/* GLOBAL STYLES */
+/* GLOBAL STYLES (mobile first/small) */
 @media only screen and (min-width: 450px) {
   body {
     margin: 0px auto;
@@ -125,7 +125,6 @@ table {
     background-color: var(--purple);
     text-align: center;   
   }
-
   footer a {
     text-decoration-line: underline;
   }
@@ -136,14 +135,12 @@ table {
     text-align: center;
     text-transform: uppercase;
   }
-
   nav a {
     text-decoration: none;
     color: var(--purple);
     font-weight: bold;
   }
-  
-  li {
+    li {
     border: 5px solid var(--yellow);
     background-color: var(--white);
     padding: 10px;
@@ -154,7 +151,6 @@ table {
     background-color: var(--purple);
     padding: 10px 10px 20px 10px;
   }
-
   #personal-development, #career-coaching, #relationship-coaching, 
   #supportive-community, #focused-sessions, #interactive-learning, 
   #flexible-learning {
@@ -190,15 +186,12 @@ table {
     background-color: var(--teal);
     border: var(--teal);
   }
-
   .why li:nth-child(2) { background-color: var(--lavender);
   border: var(--lavender);
   }
-
   .why li:nth-child(3) { background-color: var(--yellow);
   border: var(--yellow);
   }
-
   .why li:nth-child(4) { background-color: var(--white);
     border: var(--white);
   }
@@ -208,11 +201,9 @@ table {
     background-color: var(--purple);
     padding: 10px 10px 10px 10px;
   }
-
   .prices h3 {
     line-height: 1.5;
   }
-
   .prices table {
     width: 55%;
     margin-left: auto;
@@ -220,19 +211,16 @@ table {
     border-collapse: collapse;
 
   }
-
   .prices th, td {
     border: 2px solid var(--yellow);
     padding: 15px 10px;
   }
-
   .prices th {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     background-color: var(--yellow); 
   }
-
   .prices td {
     text-align: left;
     background-color: var(--white); 
@@ -245,7 +233,6 @@ table {
     color: var(--white);
     line-height: 1.5;
   }
-
   .first-step small a {
     display: block;
     width: 50%;
@@ -259,7 +246,4 @@ table {
     text-align: center;
     color: var(--dk-gray);
   }
-
-
-
 }
