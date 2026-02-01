@@ -101,18 +101,25 @@ table {
 
   h4 {
     font: 1.15em var(--font-text);
+    color: var(--purple);
+    font-weight: bold;
   }
   
   header {
+    font-family: var(--font-text);
+    color: var(--white);
+    font-style: oblique;
     padding: 20px 0px 30px 0px;
     background-color: var(--purple);
     text-align: center;   
   }
 
-  header small {
-    font: 1em var(--font-text);
-    font-style: oblique;
+  footer {
+
+    text-align: justify;
+    font: .75em var(--font-text);
     color: var(--white);
+    background-color: var(--purple);
   }
 
   nav {
@@ -134,53 +141,38 @@ table {
     padding: 10px;
     font: 1em var(--font-text);
   }
+
   .our-services {
     background-color: var(--purple);
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
   }
 
-  #personal-development, #career-coaching, #relationship-coaching {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: var(--white);
-  }
- 
-  #supportive-community, #focused-sessions {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: var(--white);
-  }
-  #interactive-learning {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: var(--white);
-  }
-
+  #personal-development, #career-coaching, #relationship-coaching, 
+  #supportive-community, #focused-sessions, #interactive-learning, 
   #flexible-learning {
     margin: 10px;
-    padding: 10px;
+    padding: 20px 35px 20px 20px;
     border-radius: 10px;
     background-color: var(--white);
+    font: 1em var(--font-text);
   }
 
   .why {
     background-color: #D9526F;
+    padding: 10px 10px 10px 10px;
   }
 
   .prices {
     background-color: #484FB7;
+    padding: 10px 10px 10px 10px;
   }
 
   .first-step {
     background-color: var(--pink);
+    padding: 10px 10px 10px 10px;
   }
 
-  footer {
-    background-color: var(--purple);
-  }
+
 
 
 }
